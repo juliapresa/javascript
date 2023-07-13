@@ -29,3 +29,16 @@ if (empezar === "si"){
 }
 console.log ('Nombre ingresado: ' + nombre)
 console.log ('Mail ingresado: ' + mail)
+
+
+
+
+const arrayProducto = [
+    "Marcador", 
+    "Lapicera", 
+    "Lapiz", 
+    "Goma"]
+console.log ('Cantidad de elementos: ' + arrayProducto.length)
+for (let i = 0; i < arrayProducto.length; i++){
+    console.log (arrayProducto [i])
+}

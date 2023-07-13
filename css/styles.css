@@ -1,0 +1,83 @@
+body {
+    overflow-x: hidden;
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    background-image: url(../assets/img/imagenTres.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.tarjeta{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.title {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    
+}
+
+.subtitle {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    color: black;
+}
+
+.subtitleDos {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 1%;
+    color: black;
+}
+
+.card {
+    width: 150px;
+    height: fit-content;
+    display: flex;
+    justify-content: space-around;
+}
+
+.cardBody {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(162, 240, 214);
+}
+
+.cardTitle {
+    text-align: center;
+}
+
+.cardButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    background-color: white;
+    border: black solid 1px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.botonCancelar {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+.cardImagen{
+    width: 100px;
+    height: 100px;
+}
+.precioFinal{
+    width: 50%;
+}
+.cantidadItems{
+    width: 50%;
+}
